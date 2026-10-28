@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17110f">
+  <meta name="description" content="Behind every lesson, there is a heart. A story of gratitude and new beginnings for Teacher Emma.">
+  <title>Behind Every Lesson — For Teacher Emma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="intro-screen" id="intro" aria-labelledby="intro-title">
+      <div class="intro-content">
+        <span class="intro-flower intro-flower-a" aria-hidden="true">✿</span><span class="intro-flower intro-flower-b" aria-hidden="true">❀</span>
+        <p class="eyebrow intro-eyebrow">A story made with gratitude</p>
+        <h1 id="intro-title" class="intro-quote">Every teacher has a story.<br><em>But not every story gets told.</em></h1>
+        <p class="intro-subtitle">Teacher Emma, this little world was created just for you.</p>
+        <div class="keepsake-wrap" aria-hidden="true">
+          <div class="keepsake-glow"></div>
+          <div class="keepsake-box" id="keepsake-box">
+            <div class="box-base"><span class="box-front-line"></span><span class="box-lock"><span></span></span></div>
+            <div class="box-lid"><span class="lid-ribbon"></span><span class="lid-knot"></span></div>
+            <span class="ribbon-tail ribbon-tail-left"></span><span class="ribbon-tail ribbon-tail-right"></span>
+          </div>
+          <span class="box-sparkle sparkle-one">✦</span><span class="box-sparkle sparkle-two">✧</span><span class="box-sparkle sparkle-three">✦</span>
+        </div>
+        <button class="button button-gold unlock-button" id="unlock-button" type="button"><span>Discover Your Story</span><span class="button-arrow" aria-hidden="true">↗</span></button>
+        <p class="intro-footnote">A small world of gratitude, just for you</p>
+      </div>
+    </section>
+
+    <div class="experience" id="experience" hidden>
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Behind Every Lesson, back to top"><span class="wordmark-star" aria-hidden="true">✦</span><span>Behind every lesson <small>there is a heart</small></span></a>
+        <div class="music-controls">
+          <button class="music-control" id="music-toggle" type="button" aria-pressed="false" aria-label="Play original piano-like music"><span class="music-icon" aria-hidden="true">♫</span><span class="music-label">Play the music</span><span class="music-bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
+          <button class="music-control mute-control" id="music-mute" type="button" aria-pressed="false" aria-label="Mute music" disabled>Mute</button>
+          <label class="volume-control" for="music-volume" title="Music volume"><span aria-hidden="true">◖</span><input id="music-volume" type="range" min="0" max="100" value="45" aria-label="Music volume"></label>
+        </div>
+      </header>
+      <section class="hero section-shell" id="top">
+        <div class="hero-copy"><p class="eyebrow">For Teacher Emma · Four years, countless lessons</p><h1>Behind every lesson,<br><em>there is a heart.</em></h1><p class="hero-intro">For Teacher Emma — four years of teaching, countless lessons, and memories worth keeping. This is a little story about the care behind the classroom—and the gratitude that can be hard to say aloud.</p><a class="text-link" href="#song">Begin the story <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-art" aria-hidden="true"><div class="hero-halo"></div><div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div><div class="hero-moon">✦</div><div class="mini-box"><span class="mini-box-lid"></span><span class="mini-box-body"></span><span class="mini-box-ribbon"></span></div><span class="hero-float float-a">✧</span><span class="hero-float float-b">✦</span><span class="hero-float float-c">✧</span><span class="hero-caption">little things, kept close</span></div>
+      </section>
+      <section class="song-section section-shell" id="song" aria-labelledby="song-title">
+        <div class="song-art" aria-hidden="true"><div class="song-orbit"></div><div class="song-note">♫</div><span>♪</span><i>✧</i></div>
+        <div class="song-copy"><p class="eyebrow">An original melody, made for this little film</p><h2 id="song-title">A Little Song for <em>Teacher Emma</em></h2><p class="song-subtitle">For all the little things you did that meant more than you knew.</p>
+          <div class="lyrics-card" aria-live="polite"><p class="lyrics-label">A dedication in verse</p><p class="lyric-line" data-lyric="0">Before each lesson, care was sown,</p><p class="lyric-line" data-lyric="1">with patient words and time you’d shown.</p><p class="lyric-line" data-lyric="2">The little things we might not see,</p><p class="lyric-line" data-lyric="3">became a part of who we’d be.</p><p class="lyric-line" data-lyric="4">Your lessons travel as we grow,</p><p class="lyric-line" data-lyric="5">like quiet lights we come to know.</p><p class="lyric-line" data-lyric="6">The thanks we sometimes couldn't say,</p><p class="lyric-line" data-lyric="7">we send with you upon your way.</p><p class="lyric-line" data-lyric="8">May laughter find your home each day,</p><p class="lyric-line" data-lyric="9">and love grow deeper on your way.</p></div>
+        </div>
+      </section>
+      <section class="film-section section-shell" id="story-film" aria-labelledby="film-title">
+        <div class="section-heading"><p class="eyebrow">A small film about the work behind the wonder</p><h2 id="film-title">The story of <em>a teacher.</em></h2><p>Illustrations, not photographs of Teacher Emma or her classroom.</p></div>
+        <div class="film-reel" id="film-reel">
+          <figure class="film-frame is-current"><img src="assets/images/student-memory-03.svg" alt="Illustration of an open journal, representing lesson preparation" loading="lazy"><figcaption>Behind every lesson was time and preparation.</figcaption></figure>
+          <figure class="film-frame"><img src="assets/images/student-memory-01.svg" alt="Illustration of a classroom window, representing a lesson being shared" loading="lazy"><figcaption>Behind every correction was a chance to learn.</figcaption></figure>
+          <figure class="film-frame"><img src="assets/images/student-memory-05.svg" alt="Illustration of a chalkboard with stars and learning symbols" loading="lazy"><figcaption>Behind every difficult day was a teacher who kept showing up.</figcaption></figure>
+          <figure class="film-frame"><img src="assets/images/student-memory-06.svg" alt="Illustration of a question mark surrounded by curious stars" loading="lazy"><figcaption>Every question can open a door to somewhere new.</figcaption></figure>
+          <figure class="film-frame"><img src="assets/images/student-memory-02.svg" alt="Illustration of a paper boat, representing a student learning to find their way" loading="lazy"><figcaption>A little encouragement can help someone find their own way.</figcaption></figure>
+          <figure class="film-frame"><img src="assets/images/student-memory-07.svg" alt="Illustration of cheerful abstract classroom shapes" loading="lazy"><figcaption>And sometimes, the impact of a teacher is much greater than she ever gets to see.</figcaption></figure>
+          <figure class="film-frame"><img src="assets/images/student-memory-04.svg" alt="Illustration of warm lanterns at dusk" loading="lazy"><figcaption>When the classroom is quiet, its little lights are still remembered.</figcaption></figure>
+          <figure class="film-frame"><img src="assets/images/student-memory-08.svg" alt="Illustration of a teacher and students as abstract silhouettes" loading="lazy"><figcaption>A teacher’s care becomes part of the stories students carry.</figcaption></figure>
+        </div>
+        <div class="film-controls"><button class="film-button" id="film-prev" type="button" aria-label="Previous story image">←</button><span id="film-count" aria-live="polite">01 / 08</span><button class="film-button" id="film-next" type="button" aria-label="Next story image">→</button></div>
+      </section>
+      <section class="memory-section section-shell" id="memories" aria-labelledby="memory-title">
+        <div class="section-heading"><p class="eyebrow">Eight little notes, each with its own light</p><h2 id="memory-title">Teacher Emma, there are a few things<br>we wanted you to <em>discover…</em></h2><p>Open any envelope, in any order. Each one holds a little thank-you.</p></div>
+        <div class="memory-grid" id="memory-grid"></div>
+      </section>
+      <section class="gallery-section section-shell" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading section-heading-row"><div><p class="eyebrow">Illustrations until you add your own photographs</p><h2 id="gallery-title">The Hearts Behind<br><em>the Classroom.</em></h2></div><p class="gallery-note">A scrapbook of teaching, learning,<br>friendship, and all the in-between.</p></div>
+        <!-- Replace these local SVG placeholders with permitted photographs; keep image paths relative to index.html. -->
+        <div class="gallery-grid">
+          <button class="photo-card photo-card-tall" type="button" data-image="assets/images/student-memory-03.svg" data-caption="The quiet work behind a lesson"><span class="photo-frame"><img src="assets/images/student-memory-03.svg" alt="Abstract placeholder illustration of an open journal and lesson notes" loading="lazy"></span><span class="photo-caption">The quiet work behind a lesson <i>↗</i></span></button>
+          <button class="photo-card photo-card-offset" type="button" data-image="assets/images/student-memory-05.svg" data-caption="A room full of new possibilities"><span class="photo-frame"><img src="assets/images/student-memory-05.svg" alt="Abstract placeholder illustration of a chalkboard and stars" loading="lazy"></span><span class="photo-caption">A room full of new possibilities <i>↗</i></span></button>
+          <button class="photo-card" type="button" data-image="assets/images/student-memory-06.svg" data-caption="Every question opens a door"><span class="photo-frame"><img src="assets/images/student-memory-06.svg" alt="Abstract placeholder illustration of a curious question and stars" loading="lazy"></span><span class="photo-caption">Every question opens a door <i>↗</i></span></button>
+          <button class="photo-card photo-card-offset" type="button" data-image="assets/images/student-memory-07.svg" data-caption="Little moments, gathered together"><span class="photo-frame"><img src="assets/images/student-memory-07.svg" alt="Abstract placeholder illustration of cheerful classroom shapes" loading="lazy"></span><span class="photo-caption">Little moments, gathered together <i>↗</i></span></button>
+          <button class="photo-card" type="button" data-image="assets/images/student-memory-01.svg" data-caption="A brighter view from here"><span class="photo-frame"><img src="assets/images/student-memory-01.svg" alt="Abstract placeholder illustration of a sunlit classroom window" loading="lazy"></span><span class="photo-caption">A brighter view from here <i>↗</i></span></button>
+          <button class="photo-card photo-card-offset" type="button" data-image="assets/images/student-memory-02.svg" data-caption="Finding our own way forward"><span class="photo-frame"><img src="assets/images/student-memory-02.svg" alt="Abstract placeholder illustration of a paper boat on a quiet sea" loading="lazy"></span><span class="photo-caption">Finding our own way forward <i>↗</i></span></button>
+          <button class="photo-card" type="button" data-image="assets/images/student-memory-08.svg" data-caption="A teacher and her students"><span class="photo-frame"><img src="assets/images/student-memory-08.svg" alt="Abstract silhouette illustration of a teacher standing with students" loading="lazy"></span><span class="photo-caption">A teacher and her students <i>↗</i></span></button>
+          <button class="photo-card photo-card-offset" type="button" data-image="assets/images/student-memory-04.svg" data-caption="The light that stays after class"><span class="photo-frame"><img src="assets/images/student-memory-04.svg" alt="Abstract placeholder illustration of lanterns at dusk" loading="lazy"></span><span class="photo-caption">The light that stays after class <i>↗</i></span></button>
+        </div>
+        <p class="personalise-note"><span aria-hidden="true">✦</span> These are original abstract illustrations, not photographs of real students or Teacher Emma. Add your own pictures—with permission—whenever you are ready.</p>
+      </section>
+      <section class="chapters-section section-shell" id="chapters" aria-labelledby="chapters-title">
+        <div class="section-heading"><p class="eyebrow">Approximately four years, held in four pages</p><h2 id="chapters-title">Four years, countless <em>little hearts.</em></h2><p>Select a page. Add your own details whenever a memory comes to mind.</p></div>
+        <div class="chapter-layout"><div class="chapter-pages" id="chapter-pages"></div><article class="chapter-reflection" id="chapter-reflection" aria-live="polite"><span class="reflection-mark" aria-hidden="true">“</span><p class="eyebrow" id="chapter-kicker">A page from the journal</p><h3 id="chapter-heading">Every beginning holds a little wonder.</h3><p id="chapter-copy">Choose one of the four pages to open a reflection from the years of learning, growing, and remembering.</p><span class="reflection-rule"></span></article></div>
+      </section>
+      <section class="letter-section section-shell" id="letter" aria-labelledby="letter-title">
+        <div class="letter-deco" aria-hidden="true">✧</div><p class="eyebrow">A note, from one of your students</p><h2 id="letter-title">Teacher Emma, if these four years <em>could speak…</em></h2><p class="letter-intro">Some words take a little courage. This one has been waiting in an envelope.</p>
+        <button class="letter-envelope" id="letter-open" type="button" aria-expanded="false" aria-controls="letter-paper"><span class="envelope-flap"></span><span class="envelope-letter">A letter for you</span><span class="envelope-seal">E</span><span class="sr-only">Open the letter</span></button>
+        <div class="letter-paper" id="letter-paper" hidden><div class="paper-topline"><span>With gratitude</span><span>✦</span></div><div class="letter-copy" id="letter-copy" aria-live="polite"></div><button class="text-link letter-skip" id="letter-skip" type="button">Read the whole letter <span aria-hidden="true">→</span></button><button class="button button-outline continue-button" id="continue-to-wedding" type="button" hidden>Turn to your next chapter <span aria-hidden="true">→</span></button></div>
+      </section>
+      <section class="wedding-section" id="wedding" aria-labelledby="wedding-title" hidden>
+        <div class="wedding-content section-shell"><p class="eyebrow">With all the warmth in our hearts</p><div class="flower-ornament" aria-hidden="true"><span>✿</span><i>✧</i><span>❀</span></div>
+          <h2 id="wedding-title">Today, we celebrate the teacher who taught us lessons —<br><em>and the woman beginning a beautiful new chapter.</em></h2><p class="wedding-blessing">May your marriage bring you peace on difficult days, laughter on ordinary days, strength through every challenge, and a love that grows deeper with time.</p><span class="wedding-divider" aria-hidden="true">✦</span>
+          <h3>Happy Wedding, Teacher Emma.</h3><p class="wedding-thanks">Thank you for the time, care, and dedication you have given to teaching. May the happiness you have shared with others return to you in beautiful ways.</p>
+          <button class="button button-gold surprise-button" id="surprise-button" type="button">Open One Last Memory <span aria-hidden="true">↗</span></button>
+          <div class="final-surprise" id="final-surprise" hidden><span class="final-sparkle" aria-hidden="true">✦</span><p>Some lessons end when the class is over. Others stay with us long after we leave the classroom.</p><p>Thank you for being part of my story, Teacher Emma.</p><p>With gratitude and the warmest wishes for your forever,<br><em>One of your students.</em></p></div>
+          <button class="secret-star" id="secret-star" type="button" aria-label="A little hidden message" aria-expanded="false" title="A little hidden message">✧</button><p class="secret-message" id="secret-message" hidden>If you ever wonder whether your teaching mattered, remember that a student took the time to create this little world just to say thank you.</p>
+        </div><footer class="site-footer">Made with gratitude, for Teacher Emma <span aria-hidden="true">♥</span></footer>
+      </section>
+    </div>
+  </main>
+  <dialog class="memory-dialog" id="memory-dialog" aria-labelledby="dialog-title"><form method="dialog"><button class="dialog-close" aria-label="Close memory">×</button></form><span class="dialog-star" aria-hidden="true">✦</span><p class="eyebrow" id="dialog-kicker">A little thing to remember</p><h2 id="dialog-title"></h2><p class="dialog-message" id="dialog-message"></p><button class="text-link discover-another" id="discover-another" type="button">Discover another memory <span aria-hidden="true">↗</span></button></dialog>
+  <dialog class="lightbox-dialog" id="lightbox-dialog" aria-label="Photograph preview"><form method="dialog"><button class="dialog-close lightbox-close" aria-label="Close photograph">×</button></form><img id="lightbox-image" src="" alt=""><p id="lightbox-caption"></p></dialog>
+  <div class="audio-status sr-only" id="audio-status" aria-live="polite"></div>
+</body>
+</html>
